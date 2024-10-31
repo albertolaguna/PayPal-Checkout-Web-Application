@@ -1,29 +1,31 @@
-# frontend
+# Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+PayPal Standard Integration sample in Vuejs
 
-## Recommended IDE Setup
+## Running the sample
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. Add your API credentials to the environment:
 
-## Customize configuration
+    - **Windows (powershell)**
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+        ```powershell
+        $env:PAYPAL_CLIENT_ID = "<PAYPAL_CLIENT_ID>"
+        ```
 
-## Project Setup
+    - **Linux / MacOS**
 
-```sh
-npm install
-```
+        ```bash
+        export PAYPAL_CLIENT_ID="<PAYPAL_CLIENT_ID>"
+        ```
 
-### Compile and Hot-Reload for Development
+2. Install the packages
 
-```sh
-npm run dev
-```
+    ```sh
+    npm install
+    ```
 
-### Compile and Minify for Production
+3. Run the server
 
-```sh
-npm run build
-```
+    ```sh
+    npm run dev
+    ```
