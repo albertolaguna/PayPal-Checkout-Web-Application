@@ -120,7 +120,7 @@ onMounted(async () => {
             }
             try {
               const response = await fetch(
-                "/api/orders",
+                `${import.meta.env.VITE_API_URL}/api/orders`,
                 {
                   method: "POST",
                   headers: {
@@ -154,7 +154,7 @@ onMounted(async () => {
           },
           async onApprove(data, actions) {
             try {
-              const response = await fetch(`/api/orders/${data.orderID}/capture`, {
+              const response = await fetch(`${import.meta.env.VITE_API_URL}/api/orders/${data.orderID}/capture`, {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",

@@ -10,12 +10,14 @@ PayPal Standard Integration sample in Vuejs
 
         ```powershell
         $env:PAYPAL_CLIENT_ID = "<PAYPAL_CLIENT_ID>"
+        $env:VITE_API_URL = "<API_URL>"
         ```
 
     - **Linux / MacOS**
 
         ```bash
-        export PAYPAL_CLIENT_ID="<PAYPAL_CLIENT_ID>"
+        export VITE_PAYPAL_CLIENT_ID="<PAYPAL_CLIENT_ID>"
+        export VITE_API_URL="<API_URL>"
         ```
 
 2. Install the packages
