@@ -13,7 +13,7 @@
   },
   "scripts": {
     "server-dev": "nodemon server.js",
-    "start": "npm run server-dev",
+    "start": "node server.js",
     "prod": "node server.js",
     "format": "npx prettier --write **/*.{js,jsx,md}",
     "format:check": "npx prettier --check **/*.{js,jsx,md}"
